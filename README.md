@@ -1,4 +1,4 @@
-# UWB LOS/NLOS Classification and Range Prediction Project (Group 01)
+# UWB LOS/NLOS Classification and Range Prediction Project (Group 17)
 
 This project implements machine learning techniques for two key tasks in UWB-based indoor positioning:
 
@@ -131,6 +131,29 @@ The project follows a standard data analytics pipeline:
 - **Multiple Model Comparison**: Train and evaluate several models to find the best performer
 - **Feature Importance Analysis**: Identify which signal characteristics are most important
 - **Modular Design**: Well-organized code structure for easy maintenance and extension
+
+The project generates comprehensive analyses for both tasks:
+
+### LOS/NLOS Classification Results
+- Comparison of different classification model performances
+- Identification of the most important features for LOS/NLOS detection
+- Feature distributions before and after preprocessing
+- Theoretical explanation of classification results
+- Practical recommendations for LOS/NLOS classification implementation
+
+### Range Prediction Results
+- Comparison of regression model performances (RMSE, MAE, R²)
+- Analysis of key features influencing range prediction
+- Theoretical understanding of range estimation in LOS vs. NLOS conditions
+- Recommendations for improving range prediction accuracy
+
+## Key Enhancements in This Version
+
+- **Enhanced Data Visualization**: Added pre- and post-processing visualizations to better understand data characteristics
+- **CIR Pattern Analysis**: Visualize and compare CIR patterns between LOS and NLOS signals
+- **Feature Correlation Analysis**: Heatmaps showing relationships between different signal features
+- **Robust Error Handling**: Better handling of package dependencies and error conditions
+- **Improved Documentation**: More comprehensive README and code comments
 
 ## License
 
