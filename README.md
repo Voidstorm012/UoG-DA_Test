@@ -79,6 +79,9 @@ cd UoG-DA_Test
 # Install required packages
 pip install numpy pandas matplotlib scikit-learn
 
+# Optional package
+pip install seaborn
+
 # Run both classification and range prediction pipelines (default)
 python main.py
 
