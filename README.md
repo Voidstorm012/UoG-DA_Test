@@ -146,10 +146,6 @@ The project generates comprehensive analyses for both tasks:
 - **Robust Error Handling**: Better handling of package dependencies and error conditions
 - **Improved Documentation**: More comprehensive README and code comments
 
-## Authors
-
-- Group Members Here
-
 ## License
 
 This project is licensed under the CC BY 4.0 License - see the LICENSE.txt file for details.
