@@ -1,4 +1,4 @@
-# UWB LOS/NLOS Classification and Range Prediction Project (Group 01)
+# UWB LOS/NLOS Classification and Range Prediction Project (Group 17)
 
 This project implements machine learning techniques for two key tasks in UWB-based indoor positioning:
 
