@@ -1,0 +1,38 @@
+UWB LOS/NLOS Classification - Recommendations
+==================================================
+
+Model Selection
+--------------------
+
+1. For optimal accuracy, ensemble methods like Random Forest and Gradient Boosting generally perform best on this dataset due to their ability to capture complex relationships between features.
+
+2. If computational resources are limited (e.g., in embedded systems), simpler models like Decision Trees or Logistic Regression can provide a good balance between performance and efficiency.
+
+3. For deployment in real-time systems, consider using models that offer faster inference times, such as optimized implementations of Decision Trees.
+
+Feature Engineering
+--------------------
+
+1. Focus on the top-ranked features identified in our analysis, particularly those related to signal amplitude and power characteristics.
+
+2. Consider engineered features that combine multiple raw measurements, such as ratios between different amplitude components.
+
+3. For improved performance, explore frequency-domain features derived from the Channel Impulse Response (CIR).
+
+Deployment Strategies
+--------------------
+
+1. Implement a two-stage positioning approach where LOS/NLOS classification is performed first, followed by position calculation using only LOS measurements.
+
+2. In environments with frequent NLOS conditions, consider deploying additional anchors to ensure that enough LOS measurements are available.
+
+3. Periodically retrain the model using data collected from the specific deployment environment to account for environmental changes.
+
+Performance Monitoring
+--------------------
+
+1. Implement a confidence score based on the model's probability output to flag uncertain classifications.
+
+2. Regularly validate the model's performance using ground truth data collected in the deployment environment.
+
+3. Consider ensemble approaches that combine multiple models for more robust classification, especially in challenging environments.

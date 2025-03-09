@@ -1,0 +1,62 @@
+UWB LOS/NLOS Classification - Summary Report
+==================================================
+
+Model Performance Summary
+------------------------------
+
+Best model for accuracy: Random Forest (0.9114)
+Best model for precision: SVM (0.9364)
+Best model for recall: Random Forest (0.8884)
+Best model for f1_score: Random Forest (0.9080)
+
+Feature Importance Ranking
+------------------------------
+
+1. RXPACC: 0.4716
+2. CIR_PWR: 0.1026
+3. Range: 0.1024
+4. MAX_NOISE: 0.0825
+5. FP_AMP3: 0.0722
+6. STDEV_NOISE: 0.0615
+7. FP_AMP1: 0.0395
+8. FP_AMP2: 0.0353
+9. FP_IDX: 0.0203
+10. PREAM_LEN: 0.0102
+11. FRAME_LEN: 0.0019
+12. CH: 0.0000
+13. BITRATE: 0.0000
+14. PRFR: 0.0000
+
+Individual Model Performance
+------------------------------
+
+Model: Logistic Regression
+  accuracy: 0.8561
+  precision: 0.8921
+  recall: 0.8047
+  f1_score: 0.8462
+
+Model: Random Forest
+  accuracy: 0.9114
+  precision: 0.9284
+  recall: 0.8884
+  f1_score: 0.9080
+
+Model: Gradient Boosting
+  accuracy: 0.9051
+  precision: 0.9216
+  recall: 0.8821
+  f1_score: 0.9014
+
+Model: KNN
+  accuracy: 0.8849
+  precision: 0.9044
+  recall: 0.8565
+  f1_score: 0.8798
+
+Model: SVM
+  accuracy: 0.9069
+  precision: 0.9364
+  recall: 0.8698
+  f1_score: 0.9019
+
